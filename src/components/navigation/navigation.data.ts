@@ -14,7 +14,7 @@ export const navigations: Navigation[] = [
     path: 'testimonial', // '/testimonial',
   },
   {
-    label: 'Mentor',
-    path: 'mentors', // '/mentors',
+    label: 'Pricing',
+    path: 'pricing', // '/pricing',
   },
 ]

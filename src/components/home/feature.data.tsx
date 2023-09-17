@@ -13,22 +13,23 @@ interface Data {
 export const data: Data[] = [
   {
     title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'Enjoy effortless access to our services, making your experience smooth and hassle-free.',
     icon: <ArtTrackIcon />,
   },
   {
     title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: "Explore cost-effective solutions that won't compromise on quality or value.",
     icon: <AttachMoneyIcon />,
   },
   {
     title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description:
+      'Craft your own study timetable to match your pace and preferences for a tailored learning experience.',
     icon: <LocalLibraryIcon />,
   },
   {
     title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    description: 'Receive valuable insights and support from seasoned mentors to enhance your learning journey.',
     icon: <ContactSupportIcon />,
   },
 ]

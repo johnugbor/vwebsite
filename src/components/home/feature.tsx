@@ -58,25 +58,37 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  Courses and Packages
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    Frontend Development
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    Backend Development
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Mobile Development
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                </Box>
+                <Box sx={{ mb: 2 }}>
+                  <Typography variant="subtitle1" color="text.secondary">
+                    HTML, CSS, JAVASCRIPT, React
+                  </Typography>
+                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                </Box>
+                <Box sx={{ mb: 2 }}>
+                  <Typography variant="subtitle1" color="text.secondary">
+                    Python, Flask, Django, API
+                  </Typography>
+                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
                 </Box>
               </Box>
 
@@ -103,9 +115,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}> Few weeks of learning</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    Progress
                   </Typography>
                   <Box
                     sx={{
@@ -182,8 +194,8 @@ const HomeFeature: FC = () => {
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+              Tailor your learning experience to your preferences and enjoy the benefits we offer. This way, you can
+              fully immerse yourself in the lessons we provide.
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>
