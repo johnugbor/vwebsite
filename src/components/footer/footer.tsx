@@ -19,7 +19,7 @@ const Footer: FC = () => {
                 VatorCodes
               </Typography>
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                VatorCodes is a computer programming training institute that has been operating since early 2023 till
+                VatorCodes is a computer programming training institute that has been operating since early 2019 till
                 now.
               </Typography>
               <FooterSocialLinks />
